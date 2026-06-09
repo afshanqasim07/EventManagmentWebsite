@@ -75,7 +75,7 @@ html, body {
 
 .about-hero {
     height: 60vh;
-    background: url("./assets/about-banner.jpg");
+    background: url(/assets/aboutusbanner.jfif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
