@@ -1,0 +1,255 @@
+/* ================= GLOBAL ================= */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+}
+
+.content-wrapper {
+    padding: 20px;
+}
+
+/* ================= NAVBAR (SAME AS HOME PAGE) ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28132b;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.brand-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.text-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.brand-subtitle {
+    font-size: 0.8rem;
+    color: #b380c5;
+}
+
+.brand-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #5a2d61;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #b380c5;
+}
+
+/* =========================
+   BOOKING BANNER
+========================= */
+
+.booking-banner {
+    height: 45vh;
+    background: url(/assets/aboutposter.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.banner-overlay {
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(40, 19, 43, 0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+    text-align: center;
+}
+
+.banner-overlay h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner-overlay p {
+    font-size: 1.2rem;
+}
+
+/* =========================
+   FORM SECTION
+========================= */
+
+.booking-section {
+    padding: 70px 20px;
+    background: #f8f8f8;
+}
+
+.booking-card {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.booking-card h2 {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: #28132b;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-control,
+.form-select {
+
+    padding: 12px;
+
+    border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+
+    border-color: #5a2d61;
+
+    box-shadow: 0 0 8px rgba(90,45,97,0.3);
+}
+
+.services-box {
+
+    background: #f4f4f4;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    margin-bottom: 25px;
+}
+
+.services-box h4 {
+
+    color: #28132b;
+
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+
+.submit-btn {
+
+    background: #28132b;
+
+    color: white;
+
+    padding: 12px 30px;
+
+    border-radius: 8px;
+
+    border: none;
+}
+
+.submit-btn:hover {
+
+    background: #5a2d61;
+
+    color: white;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    .banner-overlay h1{
+        font-size:2rem;
+    }
+
+    .booking-card{
+        padding:25px;
+    }
+}
+
+/* ================= FOOTER (SAME AS HOME PAGE) ================= */
+.footer {
+    margin-top: 10px;
+    background-color: #1a0c1c;
+    color: #ffffff;
+    padding: 3rem 2rem 1rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    color: #b380c5;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #b380c5;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #332136;
+    font-size: 0.85rem;
+    color: #888;
+}
