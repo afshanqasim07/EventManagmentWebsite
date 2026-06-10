@@ -78,7 +78,7 @@ html, body {
 
 .contact-banner {
     height: 50vh;
-    background: url("./assets/contact-banner.jpg");
+    background: url(/assets/aboutusbanner.jfif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
