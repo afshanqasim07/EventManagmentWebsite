@@ -1,5 +1,6 @@
 /* ================= GLOBAL ================= */
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
@@ -78,7 +79,7 @@ html, body {
 
 .contact-banner {
     height: 50vh;
-    background: url(/assets/aboutusbanner.jfif);
+    background: url(/assets/aboutposter.jfif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -114,7 +115,7 @@ html, body {
     background: white;
     padding: 35px;
     border-radius: 15px;
-    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .contact-card h2 {
@@ -131,7 +132,7 @@ html, body {
 
 .form-control:focus {
     border-color: #5a2d61;
-    box-shadow: 0 0 8px rgba(90,45,97,0.3);
+    box-shadow: 0 0 8px rgba(90, 45, 97, 0.3);
 }
 
 /* BUTTON */
@@ -152,11 +153,9 @@ html, body {
 /* CONTACT INFO */
 
 .contact-info {
-    background: linear-gradient(
-        135deg,
-        #28132b,
-        #5a2d61
-    );
+    background: linear-gradient(135deg,
+            #28132b,
+            #5a2d61);
 
     color: white;
     padding: 35px;
@@ -215,7 +214,7 @@ html, body {
 .map-container {
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0px 5px 20px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* RESPONSIVE */
